@@ -1,0 +1,6 @@
+train: /home/ruhi_musa/DATASET/LABELS/train
+val: /home/ruhi_musa/DATASET/LABELS/val
+test: /home/ruhi_musa/DATASET/TEST
+
+ns: 10 #Number of classes (replace with actual number)
+names: ['smart1','cheops','lisa_pathfinder','debris','proba_3_ocs','soho','earth_observation_sat_1','proba_2','xmm_newton','double_star'] #Replace with actual class names
