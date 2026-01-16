@@ -1,0 +1,33 @@
+path: /home/users/rshaikh/FULL_SPARK2024
+
+train: images/train
+val: images/val
+
+names:
+  0: VenusExpress
+  1: Cheops
+  2: LisaPathfinder
+  3: ObservationSat1
+  4: Proba2
+  5: Proba3
+  6: Proba3ocs
+  7: Smart1
+  8: Soho
+  9: XMM Newton
+
+#Augmentation for spacecraft:
+#Augmentation for spacecraft:
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 0.0
+translate: 0.1 #Spacecraft don't rotate much
+translate: 0.1
+scale: 0.5
+shear: 0.0     #Keep spacecraft shape
+perspective: 0.0 
+flipud: 0.0    #No upside-down spacecraft
+fliplr: 0.5
+mosaic: 1.0
+mixup: 0.1
+copy_paste: 0.1
